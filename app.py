@@ -31,7 +31,7 @@ def svg_to_base64(svg_file_path):
 # st.set_page_config(page_title="Health Assistant", layout="wide")
 
 # Get the base64 SVG
-svg_icon_path = r"G:\Python Projects\multiple-disease-prediction-streamlit-app-main\stethoscope-doctor.svg"
+svg_icon_path = r"./stethoscope-doctor.svg"
 try:
     svg_icon = svg_to_base64(svg_icon_path)
 except Exception as e:
